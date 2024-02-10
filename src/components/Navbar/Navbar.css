@@ -1,0 +1,33 @@
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.nav-items {
+  margin-left: 35px;
+  color: var(--content-color);
+  text-decoration: none;
+}
+.nav-items:hover {
+  color: var(--primary-color);
+}
+.body-icon {
+  color: var(--primary-color);
+  font-size: 23px;
+}
+.body-icon:hover {
+  color: var(--content-color);
+}
+.sign-up {
+  background-color: var(--primary-color);
+  padding: 8px;
+  size: 25px;
+  font-weight: 400;
+  border-radius: 1.8px;
+}
+.sign-up:hover {
+  background-color: var(--root-color);
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}

@@ -1,0 +1,19 @@
+#logo-container {
+  border: 4px solid var(--primary-color);
+  height: 25px;
+  padding: 5px;
+  width: 125px;
+  display: flex;
+}
+#logo-part1 {
+  background-color: var(--primary-color);
+  color: var(--content-color);
+  size: 25px;
+  padding: 3px;
+}
+#logo-part2 {
+  color: var(--primary-color);
+  size: 27px;
+  font-weight: 500;
+  padding: 3px;
+}

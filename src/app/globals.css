@@ -12,3 +12,9 @@
 body {
   color: var(--content-color);
 }
+.main-heading {
+  color: transparent;
+  -webkit-text-stroke: 1px var(--content-color);
+  font-size: 8rem;
+  text-align: center;
+}

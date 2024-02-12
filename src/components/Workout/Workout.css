@@ -1,0 +1,22 @@
+.swiper-content {
+  width: 220px;
+  height: 220px;
+  border-radius: 20px;
+  border: 1px solid #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  color: white;
+}
+.swiper-pagination {
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: var(--primary-color);
+  margin: 0 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}

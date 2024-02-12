@@ -1,0 +1,77 @@
+.meter {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+.meter-items {
+  width: 210px;
+  padding: 12px;
+  text-align: center;
+  border-radius: 5px;
+  align-self: center;
+}
+
+.banner-subheading {
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+}
+.banner-box {
+  background-color: var(--content-color);
+  color: var(--root-color);
+  width: 100px;
+  height: 55px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px 5px 10px;
+}
+.show-result-button {
+  background-color: var(--primary-color);
+  color: var(--content-color);
+  margin: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.meter-items:nth-child(1) {
+  background: linear-gradient(
+    90deg,
+    rgb(56, 137, 137) 0%,
+    rgb(110, 24, 110) 100%
+  );
+}
+.meter-items:nth-child(2) {
+  background: linear-gradient(
+    90deg,
+    rgb(77, 77, 154) 0%,
+    rgb(184, 77, 184) 100%
+  );
+}
+.meter-items:nth-child(3) {
+  background: linear-gradient(
+    90deg,
+    rgb(132, 64, 64) 0%,
+    rgb(44, 44, 126) 100%
+  );
+}
+.meter-items:nth-child(4) {
+  background: linear-gradient(
+    90deg,
+    rgb(153, 75, 88) 0%,
+    rgb(31, 44, 143) 100%
+  );
+}
+.meter-items:nth-child(5) {
+  background: linear-gradient(
+    90deg,
+    rgb(137, 57, 137) 0%,
+    rgb(136, 74, 40) 100%
+  );
+}
+.meter-items:nth-child(6) {
+  background: linear-gradient(
+    90deg,
+    rgb(206, 150, 159) 0%,
+    rgb(52, 38, 123) 100%
+  );
+}

@@ -14,7 +14,7 @@ body {
 }
 .main-heading {
   color: transparent;
-  -webkit-text-stroke: 1px var(--content-color);
+  -webkit-text-stroke: 1px var(--primary-color);
   font-size: 8rem;
   text-align: center;
 }

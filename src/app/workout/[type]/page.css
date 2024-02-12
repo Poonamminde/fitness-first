@@ -1,0 +1,28 @@
+.workout-page-container {
+  background-color: var(--content-color);
+  color: var(--root-color);
+}
+.workout-number {
+  border: 1px solid var(--primary-color);
+  border-radius: 50%;
+  height: 155px;
+  width: 155px;
+}
+.workout-details {
+  display: flex;
+  gap: 30px;
+  margin: 30px;
+}
+.reverse-workout-details {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+.workout-details div h2 {
+  color: transparent;
+  border: 1px solid var(--root-color);
+}
+.workout-details span {
+  padding: 10px;
+  background-color: var(--primary-color);
+  color: var(--root-color);
+}

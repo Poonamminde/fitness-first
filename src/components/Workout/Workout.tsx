@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -105,6 +106,9 @@ const Workout = () => {
             <SwiperSlide key={index}>
               <div
                 style={{ backgroundImage: `url(${element.imageUrl})` }}
+                onClick={() => {
+                  window.location.href = `/workout/${element.type}`;
+                }}
                 className="swiper-content"
               >
                 <div>

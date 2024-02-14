@@ -8,7 +8,7 @@ import { Pagination } from "swiper/modules";
 import "./Workout.css";
 
 const Workout = () => {
-  const [workout, setWorkout] = useState<any>(null);
+  const [workout, setWorkout] = useState<any | null>(null);
 
   const getworkouts = async () => {
     let data: any = [

@@ -63,11 +63,12 @@ const page = () => {
             >
               <h1 className="main-heading workout-number">{index + 1}</h1>
               <img src={element.videoUrl} width={200} height={200} />
-              <div>
+              <div className="workout-content">
                 <h2>{element.exercise}</h2>
                 <div>
-                  <span>{element.sets} sets</span>{" "}
-                  <span>{element.reps} reps</span>{" "}
+                  <span>
+                    {element.sets} sets X {element.reps} reps
+                  </span>{" "}
                 </div>
                 <p>{element.description}</p>
               </div>

@@ -2,6 +2,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Link from "next/link";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
@@ -76,7 +77,7 @@ const Workout = () => {
   }, []);
 
   return (
-    <div>
+    <nav>
       <h1 className="main-heading">Workout</h1>
       <Swiper
         slidesPerView={1}
@@ -103,7 +104,7 @@ const Workout = () => {
       >
         {workout &&
           workout.map((element: any, index: number) => (
-            <SwiperSlide key={index}>
+            <SwiperSlide key={element?.type}>
               <div
                 style={{ backgroundImage: `url(${element.imageUrl})` }}
                 onClick={() => {
@@ -119,7 +120,7 @@ const Workout = () => {
             </SwiperSlide>
           ))}
       </Swiper>
-    </div>
+    </nav>
   );
 };
 

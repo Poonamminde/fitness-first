@@ -112,7 +112,12 @@ const Banner = () => {
                 </span>
               </CircularProgress>
               <br />
-              <button className="show-result-button">
+              <button
+                className="show-result-button"
+                onClick={() => {
+                  window.location.href = `/report/${element.name}`;
+                }}
+              >
                 Show Result <AiOutlineEye />
               </button>
             </div>

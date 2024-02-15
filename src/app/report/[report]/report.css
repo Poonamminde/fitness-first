@@ -1,0 +1,21 @@
+.report-container {
+  color: var(--primary-color);
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 91vh;
+}
+.editbutton {
+  height: 45px;
+  width: 45px;
+  background-color: var(--primary-color);
+  position: absolute;
+  top: 50%;
+  border: 1px solid var(--primary-color);
+  border-radius: 3px;
+  right: 50%;
+}
+.editbutton:hover {
+  background-color: rgb(78, 164, 78);
+}

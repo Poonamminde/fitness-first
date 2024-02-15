@@ -30,7 +30,7 @@ const Navbar = () => {
           Login
         </div>
       )}
-      {showPopup && <Login />}
+      {showPopup && <Login setShowPopup={setShowPopup} />}
     </nav>
   );
 };

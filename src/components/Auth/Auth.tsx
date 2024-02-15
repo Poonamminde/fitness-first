@@ -5,13 +5,28 @@ import Button from "@mui/joy/Button";
 import Input from "@mui/joy/Input";
 import Select from "@mui/joy/Select";
 import Option from "@mui/joy/Option";
+import { AiFillDelete, AiOutlineClose } from "react-icons/ai";
 
-const Auth = () => {
+interface AuthProps {
+  setShowPopup: React.Dispatch<React.SetStateAction<boolean>>;
+}
+const Auth: React.FC<AuthProps> = ({ setShowPopup }) => {
   const [showSignup, setShowSignup] = React.useState<boolean>(true);
   const handleSignup = () => {};
   const handleLogin = () => {};
   return (
     <div className="login-container">
+      <Button
+        onClick={() => setShowPopup(false)}
+        style={{
+          position: "absolute",
+          right: "10px",
+          top: "10px",
+          backgroundColor: "green",
+        }}
+      >
+        <AiOutlineClose />
+      </Button>
       <div className="login-background">
         <Logo />
         {showSignup ? (
